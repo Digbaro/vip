@@ -11,7 +11,7 @@ if (vipList.includes(customerName)){
         console.log("Free Ticket.");
     }
     else if (ticketNumber % 3 === 0){
-        console.log("60% off");
+        console.log("50% off");
     } else {
         console.log("Full Price.")
     }
